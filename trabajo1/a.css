@@ -22,7 +22,13 @@ body{
 
     
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 10px;
     
 }
+ .rectangulo{
+    background-color: red;
+    height: 100px;
+    width: 50px;
+    
+ }
