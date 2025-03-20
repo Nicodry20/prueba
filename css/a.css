@@ -1,0 +1,28 @@
+h1{
+    color: red;
+}
+*{
+    margin: 0;
+}
+.clase1{
+    color: blue;
+}
+#a1{
+    color: green;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(190, 241, 190);
+}
+.caja{
+    background-color: grey;
+    height: 100px;
+    width: 100px;
+    padding: 0 10px 5px 0;
+
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
