@@ -1,0 +1,36 @@
+/* Reset para evitar márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal con Flexbox */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    justify-content: center; /* Centra los elementos en la fila */
+    gap: 20px; /* Espacio entre cajas */
+    padding: 20px;
+    background-color: lightgray;
+}
+
+/* Estilos de cada caja */
+.item {
+    width: calc(33.33% - 20px); /* Cada caja ocupa 1/3 del ancho */
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* 📌 Cuando la pantalla sea menor a 600px, las cajas ocupan toda la fila */
+@media (max-width: 600px) {
+    .item {
+        width: 100%;
+    }
+}

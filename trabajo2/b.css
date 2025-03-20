@@ -13,7 +13,7 @@ body{
 
 }
 .container{
-    background-color: rgba(128, 128, 128, 0.767);
+    background-color: rgba(171, 60, 175, 0.849);
     height: 400px;
     width: 250px;
     margin-left: 550px;
@@ -24,7 +24,7 @@ body{
 .container2{
     height: 100px;
     width: 100px;
-    background-color: rgba(83, 99, 83, 0.075);
-    color: rgba(209, 9, 9, 0.205);
+    background-color: rgb(110, 133, 110);
+    color: rgb(255, 0, 0);
     text-align: center;
 }
